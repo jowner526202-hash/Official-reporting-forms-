@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /logs/
+Disallow: /blocked-ips.txt
+Disallow: /config/
+Disallow: /private/
+
+# حماية حقوق المطور أحمد من البوتات المزعجة
+User-agent: GPTBot
+Disallow: /
